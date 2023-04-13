@@ -21,35 +21,29 @@
       integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="bootstrap.css">
+    
   </head>
   <body>
     <div class="container">
-      <header class="fixed-top mb-5">
-        <nav class="navbar navbar-expand-lg bg-black">
+      <header class="mb-5">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-black">
           <div class="container">
-            <a class="navbar-brand text-white" href="index.html"
+           
+                <a class="navbar-brand text-white" href="index.html"
               ><i class="bi bi-controller text-info fs-5"></i>
               <span class="fs-5 fw-bold">Games Pro</span></a
             >
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarNavDropdown"
-              aria-controls="navbarNavDropdown"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse ms-5" id="navbarNavDropdown">
+              
+            <div class="collapse navbar-collapse ms-5" id="navbarCollapse">
               <ul class="navbar-nav">
                 <li class="nav-item px-2">
                   <a
                     class="nav-link active text-white"
                     aria-current="page"
-                    href="#"
+                    href="./index.html"
                     >Home</a
                   >
                 </li>
@@ -64,23 +58,35 @@
                     Žánry
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Akční/Action</a></li>
+                    <li><a class="dropdown-item" href="./actionGame.html">Akční/Action</a></li>
                     <li>
-                      <a class="dropdown-item" href="#">Fantasy</a>
+                      <a class="dropdown-item" href="./fantasyGame.html">Fantasy</a>
                     </li>
                     <li>
-                      <a class="dropdown-item" href="#">RPG</a>
+                      <a class="dropdown-item" href="./adventureGame.html">RPG</a>
                     </li>
                     <li>
-                      <a class="dropdown-item" href="#">Příběhové/Story</a>
+                      <a class="dropdown-item" href="./storyGame.html">Příběhové/Story</a>
                     </li>
                   </ul>
                 </li>
                 <li class="nav-item px-2">
-                  <a class="nav-link text-white" href="#">Shop</a>
+                  <a class="nav-link text-white" href="./shop.html">Shop</a>
                 </li>
               </ul>
             </div>
+            <div class="collapse navbar-collapse ms-5" id="navbarCollapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item px-2">
+                      <a class="link-opacity-50-hover link-info text-decoration-none nav-link-info" href="./signUp.html">Sign Up</a>
+                    </li>
+                    <div class="border"></div>
+                    <li class="nav-item px-2">
+                      <a class="link-opacity-50-hover link-light text-decoration-none nav-link-light" href="./signUp.html">Login</a>
+                    </li>
+                  </ul>
+            </div>
+            
           </div>
         </nav>
       </header>
@@ -140,56 +146,53 @@
         </div>
       </main>
     </div>
-    <footer class="mt-5">
-      <div class="container-fluid bg-dark text-white">
-        <div class="row ms-3">
-          <div class="col ms-5">
-            <div
-              class="d-flex flex-wrap flex-column ms-5 px-4 py-3"
-            >
-              <address class="lead ms-5 me-5">
-                <h6>Kontakt</h6>
-                <p class="fs-6">
-                  Ulice Naděje 123/45, <br/>
-                  Nové Město, 120 00 Praha<br/>Provozní doba: Po-Pá 10:00-18:00
-                </p>
-                <p class="fs-6">
-                  Telefon: +420 212 345 678<br />Email: info@progames.net
-                </p>
-              </address>
+    <footer class="bg-dark">
+      <div class="container text-white mt-5">
+          
+              <div class="row py-3">
+                  <div class="col d-flex flex-row justify-content-start ms-sm-3 px-sm-3 ms-md-4  ms-lg-4">
+                      <address class="lead">
+                          <h6>Kontakt</h6>
+                          <p class="fs-6">
+                            Ulice Naděje 123/45, <br/>
+                            Nové Město, 120 00 Praha<br/>Provozní doba: Po-Pá 10:00-18:00
+                          </p>
+                          <p class="fs-6">
+                            Telefon: +420 212 345 678<br />Email: info@progames.net
+                          </p>
+                        </address>
+                  </div>
+                  <div class="col  d-flex flex-row justify-content-center ms-sm-3 px-sm-3 ms-md-4  ms-lg-5">
+                      <article class="lead text-center">
+                          <h6>Games Pro</h6>
+                          <p class="fs-6">Také nás najdete na socialních sitích:</p>
+                          <i class="bi bi-instagram"></i>
+                          <i class="bi bi-facebook"></i>
+                          <i class="bi bi-twitch"></i>
+                        </article>
+                  </div>
+                  <div class="col  d-flex flex-row justify-content-end  me-sm-3 px-sm-3 me-md-4  me-lg-4">
+                      <article class="lead">
+                          <h6>Credits</h6>
+                          <p class="fs-6">
+                            Text:
+                            <a
+                              class="link-info text-decoration-none"
+                              href="https://chat.openai.com/chat"
+                              >GPT-3</a
+                            ><br />
+                            Obrázky:
+                            <a
+                              class="link-info text-decoration-none"
+                              href="https://beta.dreamstudio.ai/generate"
+                              >DreamStudio</a
+                            >
+                          </p>
+                        </article>
+                  </div>
             </div>
-          </div>
-          <div class="col px-5 py-3">
-            <article class="lead text-center">
-              <h6>Games Pro</h6>
-              <p class="fs-6">Také nás najdete na socialních sitích:</p>
-              <i class="bi bi-instagram"></i>
-              <i class="bi bi-facebook"></i>
-              <i class="bi bi-twitch"></i>
-            </article>
-          </div>
-          <div class="col">
-            <article class="lead px-5 py-3  me-5">
-              <h6>Credits</h6>
-              <p class="fs-6">
-                Text:
-                <a
-                  class="link-info text-decoration-none"
-                  href="https://chat.openai.com/chat"
-                  >GPT-3</a
-                ><br />
-                Obrázky:
-                <a
-                  class="me-5 link-info text-decoration-none"
-                  href="https://beta.dreamstudio.ai/generate"
-                  >DreamStudio</a
-                >
-              </p>
-            </article>
-          </div>
-        </div>
       </div>
-    </footer>
+  </footer>
     <script src="index.js"></script>
   </body>
 </html>
