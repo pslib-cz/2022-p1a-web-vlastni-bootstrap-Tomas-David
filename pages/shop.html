@@ -1,33 +1,36 @@
 <!DOCTYPE html>
 <html lang="cs">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Recenze</title>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
     />
+    
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="bootstrap.min.css">
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
       crossorigin="anonymous"
     ></script>
-  </head>
-  <body>
+    
+</head>
+<body>
     <div class="container">
       <header class="mb-5">
         <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-black">
           <div class="container">
            
-                <a class="navbar-brand text-white" href="index.html"
+              <a class="navbar-brand text-white" href="index.html"
               ><i class="bi bi-controller text-info fs-5"></i>
               <span class="fs-5 fw-bold">Games Pro</span></a
             >
@@ -88,81 +91,69 @@
           </div>
         </nav>
       </header>
-      <main class="mt-5 py-5">
-        <div class="container">
-          <article>
-            <h3 class="col-10 ms-1">
-              Recenze na hru Záhada ostrova Milionáře: Detektivní dobrodružství
-            </h3>
-            <p class="fs-3 text-success col-10 ms-1">
-              8/10<i class="bi bi-hand-thumbs-up-fill"></i>
-            </p>
-            <p class="col-10 ms-1">
-              Záhada ostrova Milionáře: Detektivní dobrodružství je skvělá hra
-              od studia Oceanic Games, která vám nabízí mnoho hodin zábavy plné
-              tajemství, dobrodružství a napětí. Hra vás zavede na krásný
-              ostrov, kde se jako detektiv musíte pokusit vyřešit záhadu, která
-              obklopuje místního miliardáře. Hra nabízí příběh s mnoha zvraty a
-              zápletkami, který vás bude držet v napětí až do konce.<br>
-              Hratelnost hry je velmi dobrá a nabízí mnoho různých prvků, včetně
-              hádanek, logických úkolů a skrytých předmětů, které musíte najít a
-              použít pro vyřešení záhady. Hra vám také umožní prozkoumat celý
-              ostrov a najít všechny skryté tajemství, což vám poskytne mnoho
-              dalších hodin zábavy.<br>
-              Vizuální stránka hry je také velmi působivá, s krásnými detaily
-              ostrova, prostředí a postav. Zvukový design hry vytváří atmosféru
-              plnou napětí a tajemství, což přispívá k celkovému zážitku z hry.<br>
-              Jediným záporem této hry může být někdy příliš složitý úkol nebo
-              hádanka, což může hráče trochu frustrovat, ale to neubírá na
-              celkové kvalitě hry.<br>
-              Celkově lze říci, že Záhada ostrova Milionáře: Detektivní
-              dobrodružství od studia Oceanic Games je velmi dobře navržená hra,
-              která nabízí mnoho hodin zábavy s poutavým příběhem, skvělou
-              hratelností a působivou vizuální stránkou. Můžeme ji doporučit
-              všem fanouškům detektivních her a dobrodružství.
-            </p>
-          </article>
-          <img
-            class="img-thumbnail"
-            src="./IMG/Story_game_ingame2.png"
-            alt=""
-            srcset=""
-          />
-          <img
-            class="img-thumbnail"
-            src="./IMG/Story_game_ingame3.png"
-            alt=""
-            srcset=""
-          />
-
-          <div class="input-group w-75 mt-5">
-            <input
-              type="text"
-              class="form-control"
-              placeholder="Komentář"
-              name="comment"
-              id="com"
-            />
-            <button
-              class="btn btn-outline-dark"
-              type="button"
-              id="comBtn"
-              onclick="makeComment()"
-            >
-              Odeslat
-            </button>
-          </div>
-          <div id="comments" class="mt-3 ms-1"></div>
-        </div>
-      </main>
+        
+        <main class="mt-5 py-5">
+            <div class="container">
+              <section>
+                <div class="row row-cols-1 row-cols-lg-2">
+                  <div class="col">
+                      <div class="card h-100" >
+                          <img src="../IMG/Action_Game.jpg" class="card-img-top" alt="Action_Game">
+                          <div class="card-body">
+                            <h5 class="card-title">Desert Rebels</h5>
+                            <p class="card-text fw-light">Rád bych vám představil skvělou akční hru Desert Rebels od studia DuneTech Gaming. Tato hra se odehrává v alternativní budoucnosti, kde se lidstvo usadilo v poušti a musí bojovat proti robotickým silám, které hrozí jejich přežití.</p>
+                            <a href="#" class="btn btn-info float-end">Koupit</a>
+                          </div>
+                        </div>
+                    </div>
+                  <div class="col">
+                    <div class="card h-100" >
+                      <img src="../IMG/story_game.png" class="card-img-top" alt="story_game">
+                      <div class="card-body">
+                        <h5 class="card-title">Záhada ostrova Milionáře: Detektivní dobrodružství</h5>
+                        <p class="card-text fw-light">Záhada ostrova Milionáře: Detektivní dobrodružství je skvělá hra
+                          od studia Oceanic Games. Hra vás zavede na
+                          ostrov, kde se jako detektiv musíte pokusit vyřešit záhadu, která
+                          obklopuje místního miliardáře. Hra nabízí příběh s mnoha zvraty a zápletkami.</p>
+                        <a href="#" class="btn btn-info float-end">Koupit</a>
+                      </div>
+                    </div>
+                  </div>
+                  
+                    <div class="col mt-3">
+                      <div class="card h-100" >
+                          <img src="../IMG/Fantasy_Game.jpg" class="card-img-top" alt="fantasyGame">
+                          <div class="card-body">
+                            <h5 class="card-title">Arcanum of Magic</h5>
+                            <p class="card-text fw-light">Arcanum of Magic je fantasy hra s magií od studia Mystic Studios, která by mohla potenciálně oslovit milovníky tohoto žánru. Hra se zaměřuje na rozsáhlý svět, plný magických bytostí a tajemných artefaktů.</p>
+                            <a href="#" class="btn btn-info float-end">Koupit</a>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col mt-3">
+                      <div class="card h-100" >
+                          <img src="../IMG/RPG_Game.png" class="card-img-top" alt="Action_Game">
+                          <div class="card-body">
+                            <h5 class="card-title">Mountain Adventure</h5>
+                            <p class="card-text fw-light">Mountain Adventure je poměrně slabá hra od studia Peak Play Studios. I když se jedná o RPG hru s tématikou hor a dobrodružství, hra nabízí velmi málo inovace a má mnoho nedostatků.</p>
+                            <a href="#" class="btn btn-info float-end">Koupit</a>
+                          </div>
+                        </div>
+                    </div>
+              </div>
+              </section>  
+            </div>
+        </main>
     </div>
     <footer class="bg-dark">
       <div class="container text-white mt-5">
           
               <div class="row py-3">
                   <div class="col d-flex flex-row justify-content-start ms-sm-3 px-sm-3 ms-md-4  ms-lg-4">
-                      <address class="lead">
-                          <h6>Kontakt</h6>
+                      <div class="lead">
+                        <h6>Kontakt</h6>
+                        <address class="lead">
+                          
                           <p class="fs-6">
                             Ulice Naděje 45 <br/>
                              120 00 Praha<br/>Provozní doba: <br> Po-Pá 10:00-18:00
@@ -171,6 +162,8 @@
                             Telefon: <br> +420 212 345 678<br/>Email: <br> info@progames.net
                           </p>
                         </address>
+                      </div>
+                      
                   </div>
                   <div class="col  d-flex flex-row justify-content-center ms-sm-3 px-sm-3 ms-md-4  ms-lg-5">
                       <article class="lead text-center">
@@ -203,6 +196,5 @@
             </div>
       </div>
   </footer>
-    <script src="index.js"></script>
-  </body>
+</body>
 </html>
