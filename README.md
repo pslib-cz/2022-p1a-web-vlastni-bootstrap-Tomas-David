@@ -7,6 +7,8 @@ Editací tohoto souboru a náhradou ``[ ]`` za ``[x]`` můžete evidovat, které
 
 ## Požadavky
 
+Link  https://pslib-cz.github.io/2022-p1a-web-vlastni-bootstrap-Tomas-David/ (psaní komentářů častečně funguje).
+
 ### HTML a struktura souborů
 
 * [x] Alespoň 3 vzájemně prolinkované stránky nebo jedna singlepage s odkazy na své sekce
